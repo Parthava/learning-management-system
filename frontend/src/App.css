@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: left;
+}
+
+html {font-family: 'Open Sans', sans-serif;}
+
+/* Typography */
+.light-300 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+}
+.regular-400 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+}
+.semi-bold-600 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
+}
+.typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #6266ea;
+  padding-top: .5em;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+
+/* Home Banner */
+#index_banner {
+  background-image: url('./assets/img/banner-bg-01.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 60vh;
+  width: 100%;
+}
+#index_banner .carousel-item {
+  min-height: 60vh;
+}
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+  color: #6266ea !important;
+  text-decoration: none;
+  font-size: 4em;
+}
+#index_banner .carousel-inner {
+  height: 80vh;
+}
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+  background-color: #6266ea !important;
+}
+
+/* Mission */
+.mission_wrapper .mission_footer {
+  max-width: 720px;
+}
+
+/* Features */
+.features.card{
+  border-radius: 16px !important;
+}
+.features .features-vertical {
+	background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s ease-out;
+  cursor: pointer;
+}
+.features .features-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s ease-out;
+}
+.features .features-vertical:hover div.features-content {
+  top: 50%;
+  margin-top: -2.5em;
+  position: absolute;
+}
+.features .features-vertical:hover * {
+  color: white;
+  transition: .5s ease-out;
+}
+
+/* Page Banners */
+#page_banner1 {
+  background-image: url('./assets/img/banner-bg-02.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#page_banner2 {
+  background-image: url('./assets/img/banner-bg-03.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* Courses */
+.course.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.course .course-vertical {
+	background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s ease-out;
+}
+.course .course-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s ease-out;
+}
+.course .course-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s ease-out;
+}
+
+
+/* Contact */
+.contact_form label {
+  margin-bottom: 16px;
+}
+
+#message {
+  height: 150px
+}
+
+.td_figure {
+  perspective: 1500px;
+}
+
+.td_figure img {
+  transform: rotateX(45deg) rotateY(20deg) rotateZ(3deg);
+  transition: all .3s ease;
+}
+
+.td_figure img:hover {
+  transform: rotate(0);
+}
+
+.sidebar {
+  margin-left: -4rem;
+  position: fixed;
+  opacity: 0.4;
+  transition: all .3s ease-in-out;
+}
+
+.sidebar:hover {
+  margin-left: 0;
+  opacity: 1;
+}
+
+.loader {
+  height: 7rem;
+  width: 7rem;
+}
+
+.min__height {
+  min-height: 80vh;
+  margin-top: 70px;
+}
+
+
+/* Footer */
+footer a.text-light:hover {
+  color: #bfbfbf !important;
+  transition-duration: 0.15s;
+}
