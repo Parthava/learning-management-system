@@ -1,5 +1,4 @@
-# learning-management-system
-LMS with MERN stack and Redux
+# LMS with MERN stack and Redux
 # Usage
 ---
 ## ES Modules in Node  
