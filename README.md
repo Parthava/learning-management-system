@@ -7,10 +7,9 @@ We use ECMAScript Modules in the backend in this project. Be sure to have at lea
 ## Env Variables  
 Create a .env file in then root and add the following  
   NODE_ENV = development  
-  PORT = 5000  
+  PORT = 8000  
   MONGO_URI = your mongodb uri  
   JWT_SECRET = 'abc123'  
-  PAYPAL_CLIENT_ID = your paypal client id  
 
 ## Install Dependencies (frontend & backend)
   npm install  
