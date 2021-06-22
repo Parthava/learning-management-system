@@ -18,8 +18,8 @@ Create a .env file in then root and add the following
   npm install  
   
 ## Run
-  # Run frontend (:3000) & backend (:8000)
+  #### Run frontend (:3000) & backend (:8000)
   npm run dev
 
-  # Run backend only
+  #### Run backend only
   npm run server
