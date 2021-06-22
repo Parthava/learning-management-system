@@ -1,0 +1,14 @@
+# learning-management-system
+LMS with MERN stack and Redux
+# Usage
+---
+## ES Modules in Node  
+We use ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.  
+
+## Env Variables  
+Create a .env file in then root and add the following  
+  NODE_ENV = development
+  PORT = 5000
+  MONGO_URI = your mongodb uri
+  JWT_SECRET = 'abc123'
+  PAYPAL_CLIENT_ID = your paypal client id
